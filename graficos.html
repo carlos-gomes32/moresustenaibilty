@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graficos</title>
+   
+<style>body {font-family: Arial, Helvetica, sans-serif; background-color: rgb(85, 85, 85); margin: 0%;}</style>
+<link rel="stylesheet" href="css.ind.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="content-top">
+        
+         <img src="MS-removebg-preview.png" width="120px" height="50px" class="img-mstop"> <br>
+         <p class="txt-top">More  Sustentanaibility Tech</p> </div>
+
+  </nav>
+
+
+
+<nav class="navbar-sec" style="background-color: rgb(58, 58, 58); justify-items: center; width: 100vw; justify-content: center;">
+    <center><div class="container-fluid">
+<span class="navbar-brand mb-0 h1" style="font-size: 30px; color: azure; "><i>Sustentabilidade e reciclagem de equipamentos eletrônicos</i></span>
+
+</div></center>
+</nav>
+
+<div class="container-fluid" style="border: 2px black solid; border-radius: 2%; background-color: white; margin-left: 100px; margin-right: 100px; margin-top: 80px; padding: 5%; box-shadow: 0px 10px 30px;">
+
+<h1 style="font-size: 50px;">Brasil é o 5º país que mais produz resíduos eletrônicos no mundo, mas descarte correto ainda é crítico </h1> <br>
+ <p style="font-size: 20px;"> Por ano, o país produz 2,4 milhões de toneladas de lixo eletrônico e poderia ser muito mais. Segundo pesquisas  
+  85% dos brasileiros <br> têm em casa algum aparelho que não usam e não sabem o que fazer com ele. O plano nacional de resíduos
+   sólidos determina que <br> os fabricantes e importadores coletem em 2024 12% dos produtos lançados no mercado. Para o ano que vem,
+    a meta é maior: 17%.  <br> Para isso, o setor mantém 6.250 postos de entrega voluntária espalhados pelo país. Mas a representante
+    da Associação Brasileira <br>de Reciclagem de Eletroeletrônicos e Eletrodomésticos diz que falta adesão do setor produtivo.</p>
+
+ <br> <center><h2>O grafico abaixo representa o crescimento do do descarte indevido de e-lixo no Brasil</h2></center> <br>
+  <div>
+    <canvas id="grafico1"></canvas>
+  </div>
+</div> 
+
+<br><br>
+
+
+
+
+<br><br>
+<footer style="background-color: rgb(75, 75, 75); width: 100vw; color: azure; display:flex; justify-items: center; flex-wrap: wrap; "> 
+  <div class="footerunp"><img src="unip-logo.png" width="60%" height="80px"></div>
+   <p class="txt-footer">A <i>More Sustentanaibilty Tech</i> é um projeto em parceria de alunos da faculdade <a href="https://www.unip.br/">UNIP</a><br> afim de promover e incentivar o correto descarte de material eletrônico no Brasil e no mundo. <br> Todos os direitos reservados por MS tech ©
+   </p>
+   <div class="footer-links">
+ 
+ <a href="instagram/carlos_gomesdev/" class="links-footer">Contact Desenvolvedor</a>
+ <br>
+ <br>
+ <a href="https://www.unip.br/" class="links-footer" target="_blank">Conheça a Unip</a>
+ <br>
+ <br>
+ <a href="" class="links-footer">Voltar ao inicio</a>
+ 
+   </div>
+ 
+   <div class="footer-img">
+ 
+   </div>
+ 
+   <div class="img-qrcode"><img src="carlosgomes_dev_qr.png" width="100%" height="85%" style="margin-top: 5%;"></div>
+   </footer>
+ 
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+   const ctx = document.getElementById('grafico1');
+
+   new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['2020', '2021', '2022', '2023', '2024'],
+      datasets: [{
+        label: 'Quantidade de Lixo eletrônico produzida no Brasil (toneladas) nos ultimos anos',
+        data: [2600, 1700, 1945, 1950, 1900, 2300],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+</script>
+
+
+
+
+</html>

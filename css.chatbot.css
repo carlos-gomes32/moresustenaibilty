@@ -1,0 +1,22 @@
+.botchat {background-color: rgb(238, 238, 238); display: none; position: fixed; z-index: 2; width: 40%; height: 84%;
+    margin-left: 32%; margin-top: 45%; border: 12px rgb(12, 129, 184) double; border-radius: 50px; overflow-x: hidden; overflow-y: hidden;}
+.titulochat {display: flex; background-color: rgb(75, 75, 75);}
+.txt-tc {color: white; font-size: 2em; padding-top: 2%; padding-left: 1%;}
+.principalinf {background-color: rgb(202, 214, 214); padding: 2%; overflow-y: scroll; display: flex; flex-wrap: wrap; overflow-x: hidden;}
+.input-duvida {background-color: rgb(75, 75, 75); height: 10.5%;}
+input {border-radius: 50px; border: 0; width: 60%; height: 65%; margin-top: 2%; margin-left: 15%; padding: 4%; font-size: 1em;}
+.bottonenviar {background-color: transparent; border: 0; height: 80px; margin-left:1% ; z-index: 3;}
+.bottonenviar:hover {transform: scale(1.4) rotate(-90deg); transition: 0.5s; filter: drop-shadow(1px 1px 6px blue);}
+.opcoes { border-left:blue 4px solid ; padding-left: 2%; height: 69%; background-color: rgb(194, 194, 194); border-radius: 10px; padding-right: 2%;}
+.opcao1, .opcao2, .opcao3, .opcao4, .opcao5, .opcao6, .opcao7, .opcao8, .opcao9, .opcao10 {color: rgb(0, 0, 0);}
+.usuariochat {background-color: rgb(194, 194, 194); display: none; margin-left: 90%; border-right: rgb(100, 207, 0) 4px solid; padding: 2%; border-radius: 10px;}
+.retorno {display: none; border-left:blue 4px solid ; padding-left: 2%; background-color: rgb(194, 194, 194); border-radius: 10px; padding-right: 2%; margin-left: 3%; margin-top: 2%; max-width: 60%;}
+.bottonenviar::after {transform: translate(1px 1px);}
+.resposta {display: block; width: 2%; padding: 1%;}
+.principalinf::-webkit-scrollbar {
+background-color: rgb(255, 255, 255); padding: 20px; width: 12px;
+}
+.principalinf::-webkit-scrollbar-thumb {background-color: rgb(131, 131, 131); border-radius: 50px; margin: 2%; height: 5%; border: black 2px solid;}
+.principalinf::-webkit-scrollbar-button {background-color: rgb(33, 130, 187);}
+.principalinf::-webkit-scrollbar-corner {background-color: rgb(112, 112, 114);}
+.principalinf::-webkit-scrollbar-track{background-color: rgb(46, 42, 42);}

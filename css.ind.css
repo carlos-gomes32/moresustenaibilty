@@ -1,0 +1,73 @@
+
+/*aqui é o css do index*/
+
+body {margin: 0%; padding: 0%; width: 100%;}
+
+.navbar {background-image: linear-gradient(to bottom right, black 60%,rgb(48, 48, 202)); width: 100%; display: flex; flex-wrap: wrap; height: 100px; }
+
+.img-mstop {padding-top: 2%;  padding-left: 1%; padding-right: 5%; padding-bottom: 0%;}
+
+.navbar-sec {width: 100%; background-color: rgb(71, 71, 71); border-bottom: 4px black solid;} 
+
+.content-top {display: flex; flex-wrap: wrap;}
+
+.txt-top {font-size: 35px; color: rgb(216, 216, 216);align-content: center; font-family: archivo black;}
+
+.txtsec {font-family: odibee sans; color: rgb(189, 189, 189);}
+
+.saibamais {width: 100%;  background-image: url(primeiraimglixo.jpg); height: 1000px; background-repeat: no-repeat; background-position: 100%; background-size: 100%; 
+align-content: center;}
+
+.info-btnsb {display: flex; flex-wrap: wrap; width: 50%; margin-left:7%; height: 400px; flex-direction: column;}
+
+.txt-sb {font-size: 70px; color: rgb(255, 252, 252); width: 100%;}
+
+.btn  {width: 60%; height: 90px; background-color:rgb(48, 139, 192); border-radius: 500px; color: rgb(255, 255, 255); 
+     font-size: 20px ; display: block; margin-top: 10%;} 
+
+     a {text-decoration: none;} 
+
+     .btn:hover {background-color: rgb(6, 67, 180); transition: 0.4s; transform: scale(1.2); color: beige; box-shadow: 1px 1px 10px rgb(84, 84, 255);} 
+
+     .lei {width: 100%;  background-image: url(leim.png); height: 930px; background-repeat: no-repeat; background-position: 100%; background-size: 100%; 
+          align-content: center;}
+
+          .leibtn {display: flex; flex-wrap: wrap; width: 36%; margin-left:64%; height: 400px; flex-direction: column;}
+
+          .txt-lei {font-size: 60px; color: rgb(255, 252, 252); width: 100%}
+
+          .estatic {width: 100%;  background-image: url(fundoestat.png); height: 930px; background-repeat: no-repeat; background-position: 100%; background-size: 100%; 
+               align-content: center;}
+
+          .estbtn {display: flex; flex-wrap: wrap; width: 90%; margin-left:5%; height: 400px; flex-direction: column;}  
+
+          .txt-est {font-size: 60px; color: rgb(255, 252, 252); width: 100%}
+
+          .recic {width: 100%;  background-image: url(descarte.png); height: 930px; background-repeat: no-repeat; background-position: 100%; background-size: 100%; 
+               align-content: center;}
+          
+          .recicbtn {display: flex; flex-wrap: wrap; width: 40%; margin-left:60%; height: 400px; flex-direction: column;}  
+          
+          .txt-recic {font-size: 60px; color: rgb(255, 252, 252); width: 100%}
+
+          .avatar {margin-left: 20%; width: 6%; display: flex; justify-content: center; padding-bottom: 10px; padding-top: 0;}
+          .footerunp {background-color: rgb(94, 94, 94); padding-top: 2%; padding-left: 4%; padding-bottom: 1.5%; border: 8px rgb(87, 87, 87) solid; }
+          .txt-footer {padding-left: 5%; padding-right: 5%; padding-top: 2%; padding-bottom: 1.5%; background-color: rgb(94, 94, 94); border: 8px rgb(87, 87, 87) solid; margin-bottom: 0; }
+          footer {background-color: rgb(94, 94, 94); border: 8px rgb(51, 51, 51) solid; display: flex;}
+          .show-or-hide {background-color: transparent; border: 0; width: 8%;}
+          .show-or-hide .avatar {width: 100px;}
+          .footer-links {background-color: rgb(94, 94, 94); border: 8px rgb(87, 87, 87) solid; padding-right: 1%; padding-left: 1%; padding-top: 1%;}
+          .links-footer {font-size: 14px; text-decoration: none; color: beige; background-color: rgb(109, 109, 109); padding: 1%;}
+          .links-footer:hover {font-size: 16px;}
+          .footer-img {background-color: rgb(94, 94, 94); border: 8px rgb(87, 87, 87) solid; width: 13.4%; background-image: url(ms-imgfoot.png); background-size:100% 100%; }
+          .tipos-placa {width: 100%;  background-image: url(video.ult.gif); height: 780px; background-repeat: no-repeat; background-position: 100%; background-size: 100%; 
+               align-content: center;}
+               .img-qrcode {display: flex; width: 9%;}
+               .img-avatar:hover {transform: scale(1.3); transition: 0.5s;}
+              
+
+
+
+/*aqui é o css do saiba mais*/
+
+     
